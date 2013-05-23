@@ -1,0 +1,6 @@
+workspace -new -server:%1/tfs -login:%3\%2,%4 Workspace -noprompt
+
+workfold -map $/ProjectName Temp -workspace:Workspace/Temp
+
+get $/ProjectName/PathTo/File/toGet.ext
+checkout $/ProjectName/PathTo/File/toGet.ext
