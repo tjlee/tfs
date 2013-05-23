@@ -1,0 +1,4 @@
+checkin $/ProjectName/PathTo/File/toGet.ext -comment:"Ruby TFS test checkin" -noprompt
+
+workfold -unmap -workspace:Workspace $/ProjectName
+workspace /delete Workspace -noprompt
